@@ -1,0 +1,30 @@
+{
+  "name": "mongo-express-react-node-simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonib/mongo-express-react-node-simple-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzonib/mongo-express-react-node-simple-app/issues"
+  },
+  "homepage": "https://github.com/dzonib/mongo-express-react-node-simple-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
